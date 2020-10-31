@@ -87,12 +87,42 @@ function Store() {
       type: "food",
     },
     {
-      name: "",
-      image: "",
-      phone: "",
+      name: "นมนัวร์",
+      image: "https://lh5.googleusercontent.com/p/AF1QipPlus6l3spESyZ_4EyxL4xQ7-0mhFG0J8lrPBeF=w408-h306-k-no",
+      phone: "0958834383",
       location: {
-        lat: 41.3917,
-        lng: 2.1649,
+        lat: 15.2502794,
+        lng: 104.8326564,
+      },
+      type: "drink",
+    },
+    {
+      name: "อัมพุช คอฟฟี่",
+      image: "https://lh5.googleusercontent.com/p/AF1QipM-sCrJMxqCF68lk-fNjCJNPAnRRHg7J_ziHqd7=w426-h240-k-no",
+      phone: "045958211",
+      location: {
+        lat: 15.2502004,
+        lng: 104.8315898,
+      },
+      type: "drink",
+    },
+    {
+      name: "ISAN cafe",
+      image: "https://lh5.googleusercontent.com/p/AF1QipOSLdF0dq7Grfpbuxyk-PXxTnoKlpPAdLWsJQB_=w408-h306-k-no",
+      phone: "0947293949",
+      location: {
+        lat: 15.2502793,
+        lng: 104.8260903,
+      },
+      type: "drink",
+    },
+    {
+      name: "TIME CAFE in The garden",
+      image: "https://lh5.googleusercontent.com/p/AF1QipPMf3cH2A8n7HQXaW_ZfJZ_YlgVlImBkIAeLpt_=w408-h408-k-no",
+      phone: "0827477271",
+      location: {
+        lat: 15.2375883,
+        lng: 104.8323638,
       },
       type: "drink",
     },
