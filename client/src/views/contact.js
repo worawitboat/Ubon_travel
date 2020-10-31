@@ -4,14 +4,18 @@ import { GlobalOutlined, MailOutlined, PhoneOutlined } from "@ant-design/icons";
 import Navbar from "../navbar/navbar";
 import { createFromIconfontCN } from "@ant-design/icons";
 
-
 const { Header, Content, Footer } = Layout;
 const IconFont = createFromIconfontCN({
   scriptUrl: "//at.alicdn.com/t/font_8d5l8fzk5b87iudi.js",
 });
 function Contact() {
   return (
-    <div style={{backgroundImage:`url(https://cdn.hipwallpaper.com/i/51/65/tJ73RL.jpg)`, height:"1000px"}}>
+    <div
+      style={{
+        backgroundImage: `url(https://cdn.hipwallpaper.com/i/51/65/tJ73RL.jpg)`,
+        height: "1000px",
+      }}
+    >
       <Navbar />
       <Content
         className="site-layout"
@@ -22,7 +26,11 @@ function Contact() {
           style={{ padding: 24, minHeight: 380 }}
         >
           <Row style={{ marginTop: "50px" }}>
-            <Card hoverable bordered={true} style={{ width: 500, marginRight: 100 }}>
+            <Card
+              hoverable
+              bordered={true}
+              style={{ width: 500, marginRight: 100 }}
+            >
               <h2>Contact Us</h2>
               <Row style={{ marginTop: "30px" }}>
                 <GlobalOutlined
@@ -32,18 +40,24 @@ function Contact() {
                   Email: Chimomonono@gmail.com
                 </h3>
               </Row>
-              <Row style={{ marginTop: "10px" }}>
-                <IconFont
-                  type="icon-facebook"
-                  style={{ fontSize: "28px", color: "#3B5998" }}
-                />
+              <a href="https://www.facebook.com/sirikorn.ws.1/">
+                <Row style={{ marginTop: "10px" }}>
+                  <IconFont
+                    type="icon-facebook"
+                    style={{ fontSize: "28px", color: "#3B5998" }}
+                  />
 
-                <h3 style={{ marginLeft: "15px" }}>
-                  Facebook: Sirikorn Wiriyasookhatai
-                </h3>
-              </Row>
+                  <h3 style={{ marginLeft: "15px" }}>
+                    Facebook: Sirikorn Wiriyasookhatai
+                  </h3>
+                </Row>
+              </a>
             </Card>
-            <Card hoverable bordered={true} style={{ width: 500, marginRight: 100 }}>
+            <Card
+              hoverable
+              bordered={true}
+              style={{ width: 500, marginRight: 100 }}
+            >
               <h2>Developer</h2>
 
               <h3 style={{ marginLeft: "15px", marginTop: "30px" }}>
@@ -62,8 +76,6 @@ function Contact() {
                 5. Miss. Natcha Srisuk No.14
               </h3>
             </Card>
-            
-   
           </Row>
         </div>
       </Content>

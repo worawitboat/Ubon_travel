@@ -28,8 +28,8 @@ function Store() {
   const location = useLocation();
   const [selected, setSelected] = useState({});
   const [defaultCenter, setdefaultCenter] = useState({
-    lat: 41.3851,
-    lng: 2.1734,
+    lat: 15.3511565,
+    lng: 104.6255423,
   });
 
   const onSelect = (item) => {
@@ -88,7 +88,8 @@ function Store() {
     },
     {
       name: "นมนัวร์",
-      image: "https://lh5.googleusercontent.com/p/AF1QipPlus6l3spESyZ_4EyxL4xQ7-0mhFG0J8lrPBeF=w408-h306-k-no",
+      image:
+        "https://lh5.googleusercontent.com/p/AF1QipPlus6l3spESyZ_4EyxL4xQ7-0mhFG0J8lrPBeF=w408-h306-k-no",
       phone: "0958834383",
       location: {
         lat: 15.2502794,
@@ -98,7 +99,8 @@ function Store() {
     },
     {
       name: "อัมพุช คอฟฟี่",
-      image: "https://lh5.googleusercontent.com/p/AF1QipM-sCrJMxqCF68lk-fNjCJNPAnRRHg7J_ziHqd7=w426-h240-k-no",
+      image:
+        "https://lh5.googleusercontent.com/p/AF1QipM-sCrJMxqCF68lk-fNjCJNPAnRRHg7J_ziHqd7=w426-h240-k-no",
       phone: "045958211",
       location: {
         lat: 15.2502004,
@@ -108,7 +110,8 @@ function Store() {
     },
     {
       name: "ISAN cafe",
-      image: "https://lh5.googleusercontent.com/p/AF1QipOSLdF0dq7Grfpbuxyk-PXxTnoKlpPAdLWsJQB_=w408-h306-k-no",
+      image:
+        "https://lh5.googleusercontent.com/p/AF1QipOSLdF0dq7Grfpbuxyk-PXxTnoKlpPAdLWsJQB_=w408-h306-k-no",
       phone: "0947293949",
       location: {
         lat: 15.2502793,
@@ -118,7 +121,8 @@ function Store() {
     },
     {
       name: "TIME CAFE in The garden",
-      image: "https://lh5.googleusercontent.com/p/AF1QipPMf3cH2A8n7HQXaW_ZfJZ_YlgVlImBkIAeLpt_=w408-h408-k-no",
+      image:
+        "https://lh5.googleusercontent.com/p/AF1QipPMf3cH2A8n7HQXaW_ZfJZ_YlgVlImBkIAeLpt_=w408-h408-k-no",
       phone: "0827477271",
       location: {
         lat: 15.2375883,
@@ -127,25 +131,99 @@ function Store() {
       type: "drink",
     },
     {
-      name: "Location 3",
+      name: "ดาวทอง ของฝากอุบล",
+      image:
+        "https://www.naubon.com/wp-content/uploads/2020/06/78135155_711704942571679_8536921136355606528_o-600x400.jpg",
+      phone: "045255131",
       location: {
-        lat: 41.3773,
-        lng: 2.1585,
+        lat: 15.329395099999997,
+        lng: 105.54096,
       },
       type: "souvenir",
     },
     {
-      name: "Location 4",
+      name: "ณ อุบล ของฝากเมืองอุบล",
+      image: "https://f.ptcdn.info/302/027/000/1420860418-p176vcuin8-o.jpg",
+      phone: "0894258543",
       location: {
-        lat: 41.3797,
-        lng: 2.1682,
+        lat: 15.2801489,
+        lng: 104.890194,
+      },
+      type: "souvenir",
+    },
+    {
+      name: "หมูยอ กิมลั้ง สุดยอดของฝากเมืองอุบล",
+      image:
+        "https://photo-5.megazy.com/ms/article/9f427010-9d3d-4128-8c82-0ca723d10199.jpeg",
+      phone: "0896671223",
+      location: {
+        lat: 15.4792393,
+        lng: 104.3911285,
+      },
+      type: "souvenir",
+    },
+    {
+      name: "ฟาร์มฮักป.อุบล ทุ่งเกษม",
+      image:
+        "https://static.airmosphere.net/upload/images/users/3983/post/3731/5ca5c946e76f8_3983.jpeg",
+      phone: "045210747",
+      location: {
+        lat: 15.4195318,
+        lng: 104.3949053,
+      },
+      type: "souvenir",
+    },
+    {
+      name: "วัดหนองป่าพง",
+      image:
+        "https://lh5.googleusercontent.com/p/AF1QipNWZR_W_1sk5RHc50H6P0YhxY_q38HoXaQR8pFK=w408-h287-k-no",
+      phone: "045-322729",
+      location: {
+        lat: 15.158794,
+        lng: 104.8267877,
+      },
+      type: "temple",
+    },
+    {
+      name: "วัดสิรินธรวราราม",
+      image:
+        "https://cms.dmpcdn.com/travel/2020/02/06/6fe069c0-48b5-11ea-aaf1-b194952b8361_original.jpg",
+      phone: "045243770",
+      location: {
+        lat: 15.1504474,
+        lng: 105.4649393,
+      },
+      type: "temple",
+    },
+    {
+      name: "วัดพระธาตุหนองบัว",
+      image:
+        "https://www.paiduaykan.com/travel/wp-content/uploads/2019/12/DEW_6683-800x533.jpg",
+      phone: "0831258295",
+      location: {
+        lat: 15.2633372,
+        lng: 104.8368246,
+      },
+      type: "temple",
+    },
+    {
+      name: "วัดทุ่งศรีเมือง",
+      image:
+        "https://f.tpkcdn.com/review-source/b29c3d47-ebd0-edc8-7864-529c3b2a28cd.jpg",
+      phone: "-",
+      location: {
+        lat: 15.229869,
+        lng: 104.861477,
       },
       type: "temple",
     },
   ];
 
   return (
-    <div>
+    <div style={{
+        backgroundImage: `url(https://cdn.hipwallpaper.com/i/51/65/tJ73RL.jpg)`,
+        height: "1000px",
+      }}>
       <Navbar />
 
       <Content
@@ -162,20 +240,23 @@ function Store() {
                 {locations.map((item) => {
                   if (location.state.type === item.type) {
                     return (
-                      <Card
-                        style={gridStyle}
-                        onClick={() => {
-                          panTo(item.location);
-                        }}
-                      >
-                        <Row>
-                          <Image width={100} src={item.image} />
-                          <div style={{ marginLeft: "20px" }}>
-                            <h3>Name: {item.name}</h3>
-                            <h3>Phone: {item.phone}</h3>
-                          </div>
-                        </Row>
-                      </Card>
+                      <a>
+                        <Card
+                          hoverable
+                          style={gridStyle}
+                          onClick={() => {
+                            panTo(item.location);
+                          }}
+                        >
+                          <Row>
+                            <Image width={100} src={item.image} />
+                            <div style={{ marginLeft: "20px" }}>
+                              <h3>Name: {item.name}</h3>
+                              <h3>Phone: {item.phone}</h3>
+                            </div>
+                          </Row>
+                        </Card>
+                      </a>
                     );
                   }
                 })}

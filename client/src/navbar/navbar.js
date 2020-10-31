@@ -9,11 +9,14 @@ const MenuItemGroup = Menu.ItemGroup;
 function Navbar() {
   return (
     <div>
-      <Menu mode="horizontal" style={{height:"70px"}}>
-        <Menu.Item key="icon" style={{marginTop:"10px"}}>
-          <h2>UBON TRAVEL</h2>
+      <Menu mode="horizontal" style={{ height: "70px" }}>
+        <Menu.Item key="icon" style={{ marginTop: "10px" }}>
+          <a href="/"><h2>UBON TRAVEL</h2></a>
         </Menu.Item>
-        <Menu.Item key="mail" style={{marginBottom:"10px"}}>
+        <Menu.Item
+          key="mail"
+          style={{ marginBottom: "10px"}}
+        >
           <a href="/">Home</a>
         </Menu.Item>
         {/* <SubMenu title={<span>Blogs</span>} style={{marginBottom:"10px"}}>
@@ -26,7 +29,7 @@ function Navbar() {
             <Menu.Item key="setting:4">Option 4</Menu.Item>
           </MenuItemGroup>
         </SubMenu> */}
-        <Menu.Item key="alipay" style={{marginBottom:"10px"}}>
+        <Menu.Item key="alipay" style={{ marginBottom: "10px" }}>
           <a href="/contact">Contact Us</a>
         </Menu.Item>
       </Menu>
